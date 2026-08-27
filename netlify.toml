@@ -1,6 +1,6 @@
 [build]
   command = "npm install web-terminal -g"
-  publish = ""
+  publish = "build"
 
 [dev]
   command = "web-terminal --port"
