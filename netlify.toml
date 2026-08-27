@@ -1,0 +1,7 @@
+[build]
+  command = "npm install web-terminal -g"
+  publish = "dist"
+
+[dev]
+  command = "web-terminal --port"
+  targetPort = 8088
